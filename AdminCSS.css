@@ -1,0 +1,167 @@
+.title h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    margin-bottom: 50px;
+    color: #fcfffc;
+}
+.list a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px; 
+    color: #fcfffc;
+    border-left: 2px solid #f5b7c7;
+    padding-left: 5px;
+    transition: all 0.2 ease;
+}
+.list a:hover{
+    border-left: 2px solid #f5b7c7;
+    padding-left: 10px;
+    transition: all 0.2 ease;
+}
+.list li{
+    margin: 20px 0;
+}
+.Menu{
+    padding: 25vh 50px;
+    position: fixed;
+    background: rgba(20, 20, 20, 0.5);
+    height: 100vh;
+    backdrop-filter: blur(16px);
+    border-right: 7px solid #fcfffc;
+    left: -390px;
+    transition: all 1 ease;
+    z-index: 1;
+}
+.Menu:hover{
+    left: 0px;
+    transition: all 1 ease;
+}
+.back{
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+
+}
+.content{
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    background: rgba(20, 20, 20, 0.5);
+}
+.content-title h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    margin-bottom: 50px;
+    color: #fcfffc;
+}
+.rounded-plas {
+    margin: 50px;
+    counter-reset: li; 
+    list-style: none; 
+    font: 14px "Trebuchet MS", "Lucida Sans";
+    padding: 0;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+    }
+    .rounded-plas a {
+    text-align: center;
+    position: relative;
+    display: block;
+    padding: .4em .4em .4em 2em;
+    margin: .5em 0;
+    background: #DAD2CA;
+    color: #444;
+    text-decoration: none;
+    border-radius: .3em;
+    transition: .3s ease-out;
+    }
+    .rounded-plas a:hover {background: #E9E4E0;}
+    .rounded-plas a:hover:before {transform: rotate(360deg);}
+    .rounded-plas a:before {
+    content: counter(+);
+    position: absolute;
+    left: -1.3em;
+    top: 50%;
+    margin-top: -1.3em;
+    background: #8FD4C1;
+    height: 2em;
+    width: 2em;
+    line-height: 2em;
+    border: .3em solid white;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 2em;
+    transition: all .3s ease-out;
+    }
+.rounded {
+    margin: 50px;
+    counter-reset: li; 
+    list-style: none; 
+    font: 14px "Trebuchet MS", "Lucida Sans";
+    padding: 0;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+    }
+    .rounded a {
+    text-align: center;
+    position: relative;
+    display: block;
+    padding: .4em .4em .4em 2em;
+    margin: .5em 0;
+    background: #DAD2CA;
+    color: #444;
+    text-decoration: none;
+    border-radius: .3em;
+    transition: .3s ease-out;
+    }
+    .rounded a:hover {background: #E9E4E0;}
+    .rounded a:hover:before {transform: rotate(360deg);}
+    .rounded a:before {
+    content: counter(li);
+    counter-increment: li;
+    position: absolute;
+    left: -1.3em;
+    top: 50%;
+    margin-top: -1.3em;
+    background: #8FD4C1;
+    height: 2em;
+    width: 2em;
+    line-height: 2em;
+    border: .3em solid white;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 2em;
+    transition: all .3s ease-out;
+    }
+.model{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.model .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%; 
+    background-color: #000;
+    opacity: 0.7;
+    z-index: 0;
+}
+.model-window{
+    position: relative;
+    z-index: 2;
+    width: 550px;
+    border-radius: 10px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, .4);
+    background-color: #fff;
+    padding: 30px;
+}
+.model-window li{
+    margin: 10px;
+}
+.w{
+    right: 30%;
+}

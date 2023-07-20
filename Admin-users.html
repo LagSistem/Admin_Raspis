@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Test</title>
+    <script src="AdminScr.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-1.4.1.min.js"></script>
+    <link rel="stylesheet" href="AdminCSS.css">
+</head>
+<body>
+    <div class="content">
+        <div class="content-title">
+            <h1>Сотрудники</h1>
+        </div>
+        <div class="content-mine">
+            <ol class="rounded-plas">
+                <li><a href="#">Добавить сотрудника</a></li>
+            </ol>
+            <ol class="rounded">
+                <li><a onclick="Open_modul()" href="#">Трухин Александр Сергеевич</a></li>
+                <li><a onclick="Open_modul()" href="#">Расметьева Юлия Вячеславовна</a></li>
+                <li><a onclick="Open_modul()" href="#">Сидоров Сергей Алексеевич</a></li>
+            </ol>
+        </div>  
+    </div>
+    <div class="model" style="display: none;">
+        <div class="model-window">
+            <ol>
+                <li>Должность:</li><input></input>
+                <li>ФИО:</li><input></input>
+                <li>ссылка на ТГ:</li><input></input>
+            </ol>
+            <button>Сохранить</button>
+            <button onclick="Close_modul()">Закрыть</button>
+            <button>Удалить</button>
+        </div>
+        <div class="overlay"></div>
+    </div>
+    <div class="Menu">
+        <div class="title"><h1>Навигация</h1></div>
+        <div class="list">
+            <ul>
+                <li><a href="Admin-users.html">Сотрудники</a></li>
+                <li><a href="Admin-raspis.html">Расписание</a></li>
+                <li><a href="#">Отпуска\больничный</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="back">
+        <img width="100%" src="https://s0.rbk.ru/v6_top_pics/media/img/7/46/756584762646467.jpg" >
+    </div>
+</body>
